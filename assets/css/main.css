@@ -159,6 +159,7 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+		
 
 /* Wrapper */
 
@@ -1137,8 +1138,8 @@ input, select, textarea {
 			text-decoration: none !important;
 		}
 		.lang_icon{
-			width: 23px;
-			height: 21px;
+			width: 21px;
+			height: 19px;
 			margin: 0 10px;
 		}
 		/*----- loader ----*/
@@ -1153,10 +1154,10 @@ input, select, textarea {
 			transform-origin: bottom center;
 			animation: 3s linear infinite;
 		}
-		.logo{
+		/*.logo{
 			width: 10%;
 			height: 10%;
-		}
+		}*/
 		/*----- loader  ----*/
 		svg{
 			width: 220px;
@@ -1166,6 +1167,7 @@ input, select, textarea {
 			left: 50%;
 			transform: translate(-50%, -50%);
 		}
+		
 		/*----- loader  ----*/
 
 		  
