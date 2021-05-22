@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Al Habta Store</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="img/favicon.ico" rel="shortcut icon">
+    <!-- awesome font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+   <div class="banner1">
+       <div class="slider1">
+           <img src="img/4.jpg" alt="" id="slideImg">
+       </div>
+       <div class="overlay">
+          <header>
+        <a href="#" class="logo"><img src="img/logo.png"></a>
+            <ul>
+               <li><a href="">Home</a></li>
+               <li><a href="">About us</a></li>
+               <li><a href="">Products</a></li>
+               <li><a href="#" class="contact">Contact us</a></li>
+            </ul>
+          </header>
+                  <!-- awesome font + btns -->
+          <section class="slider text-center" id="slider">
+              <div class="slider-overlay">
+                  <div class="slider-content">
+                      <div class="icons">
+                          <i class="fa fa-apple"></i>
+                          <i class="fa fa-andoid"></i>
+                          <i class="fa fa-windows"></i>
+                      </div>
+                      <br>
+                      <div class="text"></div>
+                      <div class="cta-div">
+                          <a href="" class="btn1">CONTACT US</a>
+                          <a href="" class="btn2">LEARN MORE</a>
+                      </div>
+                      <br><br>
+                      <div class="social-networks">
+                          <a href="" class="fa fa-facebook"></a>
+                          <a href="" class="fa fa-twitter"></a>
+                          <a href="" class="fa fa-windows"></a>
+                          <a href="" class="fa fa-linkedin"></a>
+                          <a href="" class="fa fa-reddit"></a>
+                          <a href="" class="fa fa-cog"></a>
+                      </div>
+                  </div>
+              </div>
+            </section>
+            <!-- awesome font + btns ends -->
+       </div>
+   </div>
+
+    
+    <script src="js/typed.min.js" type="text/Javascript"></script>  
+    <script src="js/main.js" type="text/Javascript"></script>
+    <!--<script src="js/jquery.ripples-min.js" type="text/Javascript"></script>-->
+    <script type="text/Javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        </script>
+        <script type="text/Javascript">
+            window.addEventListener("scroll",function(){
+                var header = document.querySelector("nav");
+                header.classList.toggle("secondary", window.scrollY > 60);
+            })
+        </script>
+    
+</body>
+</html> 
